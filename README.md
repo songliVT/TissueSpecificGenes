@@ -1,6 +1,6 @@
 # TissueSpecificGenes
 
-Identification of tissue specific genes using weighted entropy method, which is originally described in ROKU paper PMID:16764735. Reimplemented to identify cell type specific genes in Arabidopsis roots [PMID: 27840108] (https://www.ncbi.nlm.nih.gov/pubmed/27840108) 
+Identification of tissue specific genes using weighted entropy method, which is originally described in ROKU paper [PMID:16764735] (https://www.ncbi.nlm.nih.gov/pubmed/16764735). Reimplemented to identify cell type specific genes in Arabidopsis roots [PMID: 27840108] (https://www.ncbi.nlm.nih.gov/pubmed/27840108) 
 
 **Input data**: matrix of gene expression data, each row is one gene, each column represent one tissue type. Gene expression average FPKM from normalized RNAseq read counts.
 
