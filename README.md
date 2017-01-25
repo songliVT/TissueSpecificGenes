@@ -6,9 +6,11 @@ Identification of tissue specific genes using weighted entropy method, which is 
 
 To run the script, use the following command:
 
-Rscript GetTissueSpecificGenes.R FPKM.example.csv [...]
+> Rscript GetTissueSpecificGenes.R FPKM.example.csv [...]
 
 Parameters:
+
+**inputfn**: input file name, FPKM.example.csv is a sample tissue specific expression data. 
 
 **outputfn**: output file name, this is a matrix of the same deminsion of the original expression matrix. entries in this matrix take values of (1,0,-1). 1 means this gene is signifiantly highly expressed in this tissue. -1 means significantly repressed in this tissue. 0 mean not significant. default value is 'TissueSpecificData.csv'
   
